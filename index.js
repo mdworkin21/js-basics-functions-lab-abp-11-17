@@ -27,7 +27,7 @@ function distanceTravelledInFeet(start, end){
 
 function calculatesFarePrice(start, destination){
   let distance = distanceTravelledInFeet (start, destination)
-  
+
     if (distance < 400){
       return 0
     } else if (distance > 400 && distance < 2000){
@@ -40,27 +40,3 @@ function calculatesFarePrice(start, destination){
 
 
 
-/*
-  switch(distance){
-
-    case 'free sample':
-        if(distance < 400){
-          return  0
-        }
-
-    case 'two cents':
-      if (distance > 400 && distance < 2000){
-        return distance * .02
-      }
-
-    case 'flat rate':
-      if (distance > 2000 && distance < 2500){
-        return 25
-      }
-
-    case 'nope':
-      if (distance > 2500){
-        return "cannot travel that far"
-      }
-    } return distance
-  }
