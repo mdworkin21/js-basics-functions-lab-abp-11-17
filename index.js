@@ -22,12 +22,11 @@ function distanceTravelledInFeet(start, end){
   }
 }
 
-let distance = distanceTravelledInFeet ()
+
 
 
 function calculatesFarePrice(start, destination){
-  
-  
+  let distance = distanceTravelledInFeet ()
 
   switch(distance){
 
