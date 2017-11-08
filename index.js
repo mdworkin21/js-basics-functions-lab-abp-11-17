@@ -33,12 +33,12 @@ function calculatesFarePrice(start, destination){
     case 'free sample':
         if(distance < 400){
           return  0
-        }
-
+        }}
+/*
     case 'two cents':
       if (distance > 400 && distance < 2000){
         return distance * .02
-      } 
+      }
 
     case 'flat rate':
       if (distance > 2000 && distance < 2500){
