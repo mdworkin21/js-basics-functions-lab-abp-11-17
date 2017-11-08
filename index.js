@@ -36,6 +36,7 @@ function calculatesFarePrice(start, destination){
     }
   }
   let distance = distanceTravelledInFeet (start, destination)
+
   switch(distance){
 
     case 'free sample':
